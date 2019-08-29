@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Travis CI 연동](travis-ci.md)
+- [깃허브 조직 구성](github-org.md)
 
 ## Installation
 

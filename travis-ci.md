@@ -26,7 +26,19 @@ Travis-CI는 루비로 작성된 오픈 소스 기반의 CI(Continuous Integrati
 1. `.travis.yml` 파일 생성하기
 
     ```yml
+    language: node_js
+    node_js:
+    - "node"
 
+    cache: yarn
+
+    sudo: true
+
+    before_script:
+    - npm install -g yarn
+
+    script:
+    - npm run test
     ```
 
 ### References
